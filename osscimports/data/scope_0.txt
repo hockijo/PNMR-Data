@@ -1,0 +1,22 @@
+ANALOG
+Ch 1 Scale 5.80V/, Pos 0.0V, Coup DC, BW Limit Off, Inv Off, Imp 1M Ohm
+     Probe 1.0000000 : 1, Skew 0.0s
+
+EXT TRIG
+Range 8.0V, Threshold 2.50V, Pos 0.0
+     Probe 1.0000000 : 1
+
+TRIGGER
+Sweep Mode Normal, Coup DC, Noise Rej Off, HF Rej Off, Holdoff 60.0ns
+Mode Edge, Source E, Slope Rising, Level 2.50V
+
+HORIZONTAL
+Mode Normal, Ref Center, Main Scale 600.0ns/, Main Delay 2.330000us
+
+ACQUISITION
+Mode Normal, Realtime On, Vectors On, Persistence Off
+
+MEASUREMENTS
+Frequency(1), Cur 21.3MHz
+Pk-Pk(1), Cur 36.8V
+
